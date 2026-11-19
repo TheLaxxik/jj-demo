@@ -59,3 +59,15 @@ Galérie, cez ktoré som hľadal: colorlib.com/wp/esthetician-website-examples, 
 - Karty: žiadne. Služby, cenník aj hodiny sú riadky s linkami. OK.
 - Jedna výrazná farba, jedna anotačná farba s presnou rolou. OK.
 - Hero nie je "text vľavo, fotka vpravo" ako generický vzor: na desktope je fotka-placeholder vysoká 4:5 a slivkový blok s číslom ju prekrýva (vzor prekrytia zo Spa by the Square). OK.
+
+## Fotky (aktualizácia 2026-11-19)
+
+Fotky salónu z Facebooku, Instagramu a Google nepoužívame, nemáme na ne súhlas. Placeholdery sú nahradené ilustračnými stock fotkami z Unsplash (Unsplash License: bezplatné použitie aj komerčne, uvedenie autora sa nevyžaduje, ale uvádzame ho tu). Každá fotka má na stránke štítok "Ilustračná fotka", aby nepôsobila ako fotka zo salónu. Interiéry na Unsplash sú prevažne luxusné spa a sauny, ktoré by malý salón na KVP skresľovali, preto sú zvolené detaily ošetrenia a prípravkov. Teplé tóny ladia so slivkovou.
+
+| Súbor | Kde | Autor | Zdroj |
+|---|---|---|---|
+| img/osetrenie-maska.jpg | hero | kimia kazemi | https://unsplash.com/photos/a-person-receiving-a-facial-treatment-RbIcMsh0NSk |
+| img/cistenie-pena.jpg | služby | kimia kazemi | https://unsplash.com/photos/womans-face-with-cleansing-foam-during-facial-treatment-J6Hg_YH2tFk |
+| img/pripravky-uterak.jpg | kontakt | Camille Brodard | https://unsplash.com/photos/white-plastic-pump-bottle-beside-pink-tulips-and-gray-towel-VxAwTeiqDao |
+
+Orez 1200 × 1500 (4:5) cez parametre images.unsplash.com, JPEG kvalita 72. Keď salón dodá vlastné fotky, stačí vymeniť súbory v img/ a zmazať štítok "Ilustračná fotka".

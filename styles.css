@@ -689,3 +689,26 @@ a { color: inherit; }
   /* navigácia sa centruje len v riadku pod pruhom */
   .site-header > .site-nav { top: auto; bottom: 0; height: auto; padding: .45rem 0; }
 }
+
+/* ---------- Ilustračné stock fotky (Unsplash) ---------- */
+.photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo .photo-tag {
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+  padding: .3rem .6rem;
+  background: rgba(31, 20, 24, .78);
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.hero .photo img { object-position: 50% 40%; }
+.services .photo img { object-position: 40% 60%; }
