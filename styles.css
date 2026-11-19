@@ -29,7 +29,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 7rem;
+  scroll-padding-top: 9.5rem;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -670,4 +670,22 @@ a { color: inherit; }
 @media (min-width: 1024px) {
   .hero h1 { font-size: 6.25rem; }
   .split .section { margin: 0; }                   /* grid položky na plnú šírku stĺpca */
+}
+
+/* ---------- Demo pruh: rovnako ako v ostatných demách Esticode ---------- */
+.demo-bar {
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: center;
+  padding: 10px var(--gutter);
+}
+@media (min-width: 768px) {
+  .demo-bar { font-size: 13px; }
+}
+@media (min-width: 1024px) {
+  html { scroll-padding-top: 8rem; }
+  /* navigácia sa centruje len v riadku pod pruhom */
+  .site-header > .site-nav { top: auto; bottom: 0; height: auto; padding: .45rem 0; }
 }
